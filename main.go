@@ -4,7 +4,7 @@ import "fmt"
 
 // Drawer draws on the underlying graphics device.
 type Drawer interface {
-	// DrawEllipseInRect draws an ellipse in rectangle
+	// DrawEllipseInRect draws an ellipse in rectangle.
 	DrawEllipseInRect(rect Rect) error
 }
 
